@@ -1,0 +1,692 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:Temp\Assembly-CSharp.dll
+-unsafe
+-r:"D:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll"
+-r:"D:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll"
+-r:"D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:"D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll"
+-r:"D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll"
+-r:"D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
+-r:"D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll"
+-r:"D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll"
+-r:Assets/UI/Plugins/Photon3Unity3D.dll
+-r:Assets/UI/Plugins/WebSocket/websocket-sharp.dll
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_1_0
+-define:UNITY_2017_1
+-define:UNITY_2017
+-define:PLATFORM_ARCH_64
+-define:UNITY_64
+-define:UNITY_ANALYTICS
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_GENERICS
+-define:ENABLE_PVR_GI
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_RUNTIME_NAVMESH_BUILDING
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_DIRECTOR
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_TIMELINE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:ENABLE_NATIVE_ARRAY
+-define:ENABLE_SPRITE_MASKING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:ENABLE_MONO_BDWGC
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:INCLUDE_PUBNUB
+-define:ENABLE_PLAYMODE_TESTS_RUNNER
+-define:ENABLE_VIDEO
+-define:ENABLE_RMGUI
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_STYLE_SHEETS
+-define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_CLUSTERINPUT
+-define:ENABLE_VR
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:NET_2_0_SUBSET
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:ENABLE_NATIVE_ARRAY_CHECKS
+-define:UNITY_TEAM_LICENSE
+-define:ENABLE_VSTU
+"Assets/BLINDED_AM_ME package/Scripts/_2D/AdjustableQuad2D.cs"
+"Assets/BLINDED_AM_ME package/Scripts/_2D/Parallax2D.cs"
+"Assets/BLINDED_AM_ME package/Scripts/_2D/Spline2D.cs"
+"Assets/BLINDED_AM_ME package/Scripts/_ApplicationComponents/ApplicationComponent_Manager.cs"
+"Assets/BLINDED_AM_ME package/Scripts/_ApplicationComponents/SaveData_ApplicationComponent.cs"
+"Assets/BLINDED_AM_ME package/Scripts/_ScriptHelper/SelectableSphereGizmo.cs"
+"Assets/BLINDED_AM_ME package/Scripts/Electricity.cs"
+"Assets/BLINDED_AM_ME package/Scripts/ExampleUseof_MeshColliderPeMaterial.cs"
+"Assets/BLINDED_AM_ME package/Scripts/ExampleUseof_Trajectory_Predicted_Path.cs"
+"Assets/BLINDED_AM_ME package/Scripts/Math_Functions.cs"
+"Assets/BLINDED_AM_ME package/Scripts/Mesh_Maker.cs"
+"Assets/BLINDED_AM_ME package/Scripts/MeshColliderPerMaterial.cs"
+"Assets/BLINDED_AM_ME package/Scripts/MeshCut.cs"
+"Assets/BLINDED_AM_ME package/Scripts/ParticlePathFlow.cs"
+"Assets/BLINDED_AM_ME package/Scripts/ParticleTexture.cs"
+"Assets/BLINDED_AM_ME package/Scripts/Path_Comp.cs"
+"Assets/BLINDED_AM_ME package/Scripts/PortalView.cs"
+"Assets/BLINDED_AM_ME package/Scripts/SetDepthTextureMode.cs"
+"Assets/BLINDED_AM_ME package/Scripts/Spline3D.cs"
+"Assets/BLINDED_AM_ME package/Scripts/ToolUser.cs"
+Assets/footSteps.cs
+"Assets/FREE Footsteps System/scripts/CameraFollow.cs"
+"Assets/FREE Footsteps System/scripts/CameraView.cs"
+"Assets/FREE Footsteps System/scripts/CharacterFootsteps.cs"
+"Assets/FREE Footsteps System/scripts/DemoUI.cs"
+"Assets/FREE Footsteps System/scripts/FirstPersonController.cs"
+"Assets/FREE Footsteps System/scripts/FootstepTrigger.cs"
+"Assets/FREE Footsteps System/scripts/SurfaceManager.cs"
+"Assets/FREE Footsteps System/scripts/TopDownController.cs"
+Assets/freezePositionAndRotation.cs
+"Assets/Game mechanism/BotStats.cs"
+"Assets/Game mechanism/ChangePanel.cs"
+"Assets/Game mechanism/CharacterBehaviourController.cs"
+"Assets/Game mechanism/CharacterPublicVariables.cs"
+"Assets/Game mechanism/Knight/scripts/rotator.cs"
+"Assets/Game mechanism/maleEditor.cs"
+"Assets/Game mechanism/My/100 Best Effect Pack/Script/csAnimationPlay.cs"
+"Assets/Game mechanism/My/100 Best Effect Pack/Script/csLightIntancityControl.cs"
+"Assets/Game mechanism/My/100 Best Effect Pack/Script/csPrefebMake.cs"
+"Assets/Game mechanism/My/100 Best Effect Pack/ShurikenEffectEditor/csShurikenEffectChanger.cs"
+"Assets/Game mechanism/My/100 Best Effect Pack/ShurikenEffectEditor/csShurikenEffectEditor.cs"
+"Assets/Game mechanism/My/100 Best Effect Pack/Standard Assets/Effects/ImageEffects/GlowEffect.cs"
+"Assets/Game mechanism/My/100 Best Effect Pack/Standard Assets/Effects/ImageEffects/Scripts/Antialiasing.cs"
+"Assets/Game mechanism/My/100 Best Effect Pack/Standard Assets/Effects/ImageEffects/Scripts/Bloom.cs"
+"Assets/Game mechanism/My/100 Best Effect Pack/Standard Assets/Effects/ImageEffects/Scripts/BloomAndFlares.cs"
+"Assets/Game mechanism/My/100 Best Effect Pack/Standard Assets/Effects/ImageEffects/Scripts/BloomOptimized.cs"
+"Assets/Game mechanism/My/100 Best Effect Pack/Standard Assets/Effects/ImageEffects/Scripts/Blur.cs"
+"Assets/Game mechanism/My/100 Best Effect Pack/Standard Assets/Effects/ImageEffects/Scripts/BlurOptimized.cs"
+"Assets/Game mechanism/My/100 Best Effect Pack/Standard Assets/Effects/ImageEffects/Scripts/CameraMotionBlur.cs"
+"Assets/Game mechanism/My/100 Best Effect Pack/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionCurves.cs"
+"Assets/Game mechanism/My/100 Best Effect Pack/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionLookup.cs"
+"Assets/Game mechanism/My/100 Best Effect Pack/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionRamp.cs"
+"Assets/Game mechanism/My/100 Best Effect Pack/Standard Assets/Effects/ImageEffects/Scripts/ContrastEnhance.cs"
+"Assets/Game mechanism/My/100 Best Effect Pack/Standard Assets/Effects/ImageEffects/Scripts/ContrastStretch.cs"
+"Assets/Game mechanism/My/100 Best Effect Pack/Standard Assets/Effects/ImageEffects/Scripts/CreaseShading.cs"
+"Assets/Game mechanism/My/100 Best Effect Pack/Standard Assets/Effects/ImageEffects/Scripts/DepthOfField.cs"
+"Assets/Game mechanism/My/100 Best Effect Pack/Standard Assets/Effects/ImageEffects/Scripts/DepthOfFieldDeprecated.cs"
+"Assets/Game mechanism/My/100 Best Effect Pack/Standard Assets/Effects/ImageEffects/Scripts/EdgeDetection.cs"
+"Assets/Game mechanism/My/100 Best Effect Pack/Standard Assets/Effects/ImageEffects/Scripts/Fisheye.cs"
+"Assets/Game mechanism/My/100 Best Effect Pack/Standard Assets/Effects/ImageEffects/Scripts/GlobalFog.cs"
+"Assets/Game mechanism/My/100 Best Effect Pack/Standard Assets/Effects/ImageEffects/Scripts/Grayscale.cs"
+"Assets/Game mechanism/My/100 Best Effect Pack/Standard Assets/Effects/ImageEffects/Scripts/ImageEffectBase.cs"
+"Assets/Game mechanism/My/100 Best Effect Pack/Standard Assets/Effects/ImageEffects/Scripts/ImageEffects.cs"
+"Assets/Game mechanism/My/100 Best Effect Pack/Standard Assets/Effects/ImageEffects/Scripts/MotionBlur.cs"
+"Assets/Game mechanism/My/100 Best Effect Pack/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs"
+"Assets/Game mechanism/My/100 Best Effect Pack/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs"
+"Assets/Game mechanism/My/100 Best Effect Pack/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs"
+"Assets/Game mechanism/My/100 Best Effect Pack/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs"
+"Assets/Game mechanism/My/100 Best Effect Pack/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs"
+"Assets/Game mechanism/My/100 Best Effect Pack/Standard Assets/Effects/ImageEffects/Scripts/ScreenOverlay.cs"
+"Assets/Game mechanism/My/100 Best Effect Pack/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs"
+"Assets/Game mechanism/My/100 Best Effect Pack/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs"
+"Assets/Game mechanism/My/100 Best Effect Pack/Standard Assets/Effects/ImageEffects/Scripts/SepiaTone.cs"
+"Assets/Game mechanism/My/100 Best Effect Pack/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs"
+"Assets/Game mechanism/My/100 Best Effect Pack/Standard Assets/Effects/ImageEffects/Scripts/TiltShift.cs"
+"Assets/Game mechanism/My/100 Best Effect Pack/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs"
+"Assets/Game mechanism/My/100 Best Effect Pack/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs"
+"Assets/Game mechanism/My/100 Best Effect Pack/Standard Assets/Effects/ImageEffects/Scripts/Twirl.cs"
+"Assets/Game mechanism/My/100 Best Effect Pack/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs"
+"Assets/Game mechanism/My/100 Best Effect Pack/Standard Assets/Effects/ImageEffects/Scripts/Vortex.cs"
+"Assets/Game mechanism/My/ActivateAimIK.cs"
+"Assets/Game mechanism/My/ActivateCharacterRotation.cs"
+"Assets/Game mechanism/My/ActivateWeapon.cs"
+"Assets/Game mechanism/My/ActivateWeapons.cs"
+"Assets/Game mechanism/My/AddForce.cs"
+"Assets/Game mechanism/My/BotAnimationsCtrl.cs"
+"Assets/Game mechanism/My/BotNavigator.cs"
+"Assets/Game mechanism/My/BowAnimationsCTRL.cs"
+"Assets/Game mechanism/My/CameraWallCollision.cs"
+"Assets/Game mechanism/My/CharacterAnimation.cs"
+"Assets/Game mechanism/My/CharacterRotation.cs"
+"Assets/Game mechanism/My/ChooseCharacter.cs"
+"Assets/Game mechanism/My/clearDamageArray.cs"
+"Assets/Game mechanism/My/ClearParameters.cs"
+"Assets/Game mechanism/My/EnemyNavigator.cs"
+"Assets/Game mechanism/My/enemySpawner.cs"
+"Assets/Game mechanism/My/EventsTrigger.cs"
+"Assets/Game mechanism/My/Explosion System/Demo/Script (for Demo)/ExplosionControl.cs"
+"Assets/Game mechanism/My/Explosion System/Scripts/GraphicExplosion.cs"
+"Assets/Game mechanism/My/Explosion System/Scripts/light_control.cs"
+"Assets/Game mechanism/My/Explosion System/Scripts/PhysicalExplosion.cs"
+"Assets/Game mechanism/My/freezeEffect.cs"
+"Assets/Game mechanism/My/GeneratorOfLowPolly.cs"
+"Assets/Game mechanism/My/HandIK.cs"
+"Assets/Game mechanism/My/IgnoreCollision.cs"
+"Assets/Game mechanism/My/inputChecker.cs"
+"Assets/Game mechanism/My/lele.cs"
+"Assets/Game mechanism/My/LoadSceneOnKey.cs"
+"Assets/Game mechanism/My/LookAtPlayer.cs"
+"Assets/Game mechanism/My/LowPoly/Low-Poly Weapons/WeaponCollection3Dan/Scripts/SimpleRotation.cs"
+"Assets/Game mechanism/My/LowPoly/LowPolyEarth/EarthSpinScript.cs"
+"Assets/Game mechanism/My/LowPoly/TornadoBanditsStudio/Low Poly Free Pack/Scripts/TBS_CameraMovement.cs"
+"Assets/Game mechanism/My/MagicAttack.cs"
+"Assets/Game mechanism/My/MagicAttackScript.cs"
+"Assets/Game mechanism/My/MagicAttackScript2.cs"
+"Assets/Game mechanism/My/MappingWeightController.cs"
+"Assets/Game mechanism/My/MeleeWeaponTrail/Example/Scripts/LookAtTarget.cs"
+"Assets/Game mechanism/My/MeleeWeaponTrail/Example/Scripts/MouseMove.cs"
+"Assets/Game mechanism/My/MeleeWeaponTrail/Example/Scripts/SwooshTest.cs"
+"Assets/Game mechanism/My/MeleeWeaponTrail/Scripts/Interpolate.cs"
+"Assets/Game mechanism/My/MeleeWeaponTrail/Scripts/MeleeWeaponTrail.cs"
+"Assets/Game mechanism/My/navigatorController.cs"
+"Assets/Game mechanism/My/ObjectPos.cs"
+"Assets/Game mechanism/My/ParticleScaler.cs"
+"Assets/Game mechanism/My/Player/Scripts/ClearDamageArray.cs"
+"Assets/Game mechanism/My/Player/Scripts/Damage.cs"
+"Assets/Game mechanism/My/Player/Scripts/DamageEvents.cs"
+"Assets/Game mechanism/My/Player/Scripts/DisableAnimator.cs"
+"Assets/Game mechanism/My/Player/Scripts/getParent.cs"
+"Assets/Game mechanism/My/Player/Scripts/PlayerFight.cs"
+"Assets/Game mechanism/My/Player/Scripts/PlayerStats.cs"
+"Assets/Game mechanism/My/PlayerAnimationsMode.cs"
+"Assets/Game mechanism/My/PlayerMode.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/_DEMOS/Aim IK/Scripts/AimBoxing.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/_DEMOS/Aim IK/Scripts/SimpleAimingSystem.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/_DEMOS/Aim IK/Scripts/TerrainOffset.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/_DEMOS/Biped IK/Scripts/BipedIKvsAnimatorIK.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/_DEMOS/CCD IK/Scripts/MechSpider.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/_DEMOS/CCD IK/Scripts/MechSpiderController.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/_DEMOS/CCD IK/Scripts/MechSpiderLeg.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/_DEMOS/CCD IK/Scripts/MechSpiderParticles.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/AnimationWarping.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/AnimatorController3rdPerson.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/AnimatorController3rdPersonIK.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/CharacterAnimationThirdPersonIK.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/CharacterController3rdPerson.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/EffectorOffset.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/ExplosionDemo.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/FBBIKSettings.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/FBIKBendGoal.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/FBIKBoxing.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/FBIKHandsOnProp.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/FPSAiming.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/FPSCharacter.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/HitReactionTrigger.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/HoldingHands.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/InteractionC2CDemo.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/InteractionDemo.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/InteractionSystemTestGUI.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/KissingRig.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/MotionAbsorb.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/MotionAbsorbCharacter.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/OffsetEffector.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/PendulumExample.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/PickUp2Handed.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/PickUpBox.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/PickUpSphere.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/RagdollUtilityDemo.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/RecoilTest.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/ResetInteractionObject.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/ShoulderRotator.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/SoccerDemo.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/TouchWalls.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/TransferMotion.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/UserControlInteractions.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/_DEMOS/Grounder/Scripts/GrounderDemo.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/_DEMOS/Grounder/Scripts/PlatformRotator.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/_DEMOS/Limb IK/Scripts/BendGoal.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/_DEMOS/Rotation Limits/Scripts/Turret.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/_DEMOS/Virtual Reality/Scripts/BulletHole.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/_DEMOS/Virtual Reality/Scripts/FixFeet.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/_DEMOS/Virtual Reality/Scripts/Mirror.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/_DEMOS/Virtual Reality/Scripts/Phone.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/_DEMOS/Virtual Reality/Scripts/VRAimingController.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/_DEMOS/Virtual Reality/Scripts/VRAnimatorController.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/_DEMOS/Virtual Reality/Scripts/VRCharacterController.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/_DEMOS/Virtual Reality/Scripts/VRInteractionController.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/_DEMOS/Virtual Reality/Scripts/VRInteractionUI.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/_DEMOS/Virtual Reality/Scripts/VRSetup.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/_DEMOS/Virtual Reality/Scripts/WeaponBase.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/_DEMOS/Virtual Reality/Scripts/WeaponRifle.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/BipedIK/BipedIK.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/BipedIK/BipedIKSolvers.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/Constraints/Constraint.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/Constraints/ConstraintPosition.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/Constraints/ConstraintPositionOffset.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/Constraints/ConstraintRotation.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/Constraints/ConstraintRotationOffset.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/Constraints/Constraints.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/DoxygenManualFinalIK.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/Finger Rig/FingerRig.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/Grounder/Grounder.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/Grounder/GrounderBipedIK.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/Grounder/GrounderFBBIK.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/Grounder/GrounderIK.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/Grounder/GrounderQuadruped.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/Grounder/Grounding.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/Grounder/GroundingLeg.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/Grounder/GroundingPelvis.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/IK Components/AimIK.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/IK Components/CCDIK.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/IK Components/FABRIK.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/IK Components/FABRIKRoot.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/IK Components/FullBodyBipedIK.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/IK Components/IK.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/IK Components/IKExecutionOrder.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/IK Components/LimbIK.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/IK Components/LookAtIK.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/IK Components/TrigonometricIK.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/IK Solvers/FABRIKChain.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/IK Solvers/FBBIKHeadEffector.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/IK Solvers/FBIKChain.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/IK Solvers/IKConstraintBend.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/IK Solvers/IKEffector.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/IK Solvers/IKMapping.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/IK Solvers/IKMappingBone.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/IK Solvers/IKMappingLimb.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/IK Solvers/IKMappingSpine.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/IK Solvers/IKSolver.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/IK Solvers/IKSolverAim.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/IK Solvers/IKSolverCCD.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/IK Solvers/IKSolverFABRIK.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/IK Solvers/IKSolverFABRIKRoot.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/IK Solvers/IKSolverFullBody.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/IK Solvers/IKSolverFullBodyBiped.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/IK Solvers/IKSolverHeuristic.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/IK Solvers/IKSolverLimb.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/IK Solvers/IKSolverLookAt.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/IK Solvers/IKSolverTrigonometric.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/IK Solvers/SolverManager.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/InteractionSystem/InteractionEffector.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/InteractionSystem/InteractionLookAt.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/InteractionSystem/InteractionObject.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/InteractionSystem/InteractionSystem.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/InteractionSystem/InteractionTarget.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/InteractionSystem/InteractionTrigger.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/Posers/GenericPoser.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/Posers/HandPoser.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/Posers/Poser.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/Ragdoll Utility/RagdollUtility.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/Rotation Limits/RotationLimit.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/Rotation Limits/RotationLimitAngle.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/Rotation Limits/RotationLimitHinge.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/Rotation Limits/RotationLimitPolygonal.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/Rotation Limits/RotationLimitSpline.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/Tools/AimPoser.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/Tools/Amplifier.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/Tools/BodyTilt.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/Tools/HitReaction.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/Tools/Inertia.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/Tools/OffsetModifier.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/Tools/OffsetPose.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/FinalIK/Tools/Recoil.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/AnimatorIKDemo.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/BallShooter.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/CharacterAnimationMeleeDemo.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/CharacterMeleeDemo.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/CharacterPuppet.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/CreatePuppetInRuntime.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/CreateRagdollInRuntime.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/Destructor.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/FXCollisionBlood.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/Killing.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/LayerSetup.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/PropDemo.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/PropMelee.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/PropPickUpTrigger.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/RaycastShooter.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/RotateShoulderToTarget.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/UserControlAIMelee.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/UserControlMelee.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/PuppetMaster/DoxygenManualPuppetMaster.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/PuppetMaster/Scripts/Behaviours/BehaviourAnimatedStagger.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/PuppetMaster/Scripts/Behaviours/BehaviourBase.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/PuppetMaster/Scripts/Behaviours/BehaviourFall.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/PuppetMaster/Scripts/Behaviours/BehaviourPuppet.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/PuppetMaster/Scripts/Behaviours/BehaviourPuppetBoosting.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/PuppetMaster/Scripts/Behaviours/BehaviourPuppetDamage.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/PuppetMaster/Scripts/Behaviours/BehaviourPuppetHelpers.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/PuppetMaster/Scripts/Behaviours/BehaviourPuppetStateSwitching.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/PuppetMaster/Scripts/Behaviours/BehaviourTemplate.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/PuppetMaster/Scripts/Behaviours/SubBehaviours/SubBehaviourBase.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/PuppetMaster/Scripts/Behaviours/SubBehaviours/SubBehaviourCOM.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/PuppetMaster/Scripts/Booster.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/PuppetMaster/Scripts/Muscle.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/PuppetMaster/Scripts/MuscleCollisionBroadcaster.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/PuppetMaster/Scripts/Prop.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/PuppetMaster/Scripts/PropRoot.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/PuppetMaster/Scripts/PropTemplate.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/PuppetMaster/Scripts/PuppetMaster.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/PuppetMaster/Scripts/PuppetMasterHierarchyAPI.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/PuppetMaster/Scripts/PuppetMasterModes.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/PuppetMaster/Scripts/PuppetMasterMuscleAPI.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/PuppetMaster/Scripts/PuppetMasterSettings.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/PuppetMaster/Scripts/PuppetMasterSetup.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/PuppetMaster/Scripts/PuppetMasterStates.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/PuppetMaster/Scripts/PuppetMasterTargetMappedState.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/PuppetMaster/Scripts/PuppetMasterTools.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/PuppetMaster/Scripts/PuppetMasterValidation.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/PuppetMaster/Scripts/Weight.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/RagdollManager/Scripts/BipedRagdollCreator.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/RagdollManager/Scripts/BipedRagdollReferences.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/RagdollManager/Scripts/JointConverter.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/RagdollManager/Scripts/RagdollCreator.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/RagdollManager/Scripts/RagdollEditor.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/Shared Demo Assets/Scripts/Camera Controllers/CameraController.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/Shared Demo Assets/Scripts/Camera Controllers/CameraControllerFPS.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/Shared Demo Assets/Scripts/Character Controllers/CharacterAnimationBase.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/Shared Demo Assets/Scripts/Character Controllers/CharacterAnimationSimple.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/Shared Demo Assets/Scripts/Character Controllers/CharacterAnimationThirdPerson.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/Shared Demo Assets/Scripts/Character Controllers/CharacterBase.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/Shared Demo Assets/Scripts/Character Controllers/CharacterThirdPerson.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/Shared Demo Assets/Scripts/Character Controllers/SimpleLocomotion.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/Shared Demo Assets/Scripts/Character Controllers/UserControlAI.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/Shared Demo Assets/Scripts/Character Controllers/UserControlThirdPerson.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/Shared Demo Assets/Scripts/Misc/ApplicationQuit.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/Shared Demo Assets/Scripts/Misc/SlowMo.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/Shared Scripts/AxisTools.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/Shared Scripts/BipedLimbOrientations.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/Shared Scripts/BipedNaming.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/Shared Scripts/BipedReferences.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/Shared Scripts/Comments.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/Shared Scripts/DemoGUIMessage.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/Shared Scripts/Hierarchy.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/Shared Scripts/Interp.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/Shared Scripts/LargeHeader.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/Shared Scripts/LayerMaskExtensions.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/Shared Scripts/QuaTools.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/Shared Scripts/Singleton.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/Shared Scripts/TriggerEventBroadcaster.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/Shared Scripts/V3Tools.cs"
+"Assets/Game mechanism/My/Plugins/RootMotion/Shared Scripts/Warning.cs"
+"Assets/Game mechanism/My/restartRotation.cs"
+"Assets/Game mechanism/My/SetLayerWeight.cs"
+"Assets/Game mechanism/My/SetReady.cs"
+"Assets/Game mechanism/My/SetState.cs"
+"Assets/Game mechanism/My/SpawnFireball.cs"
+"Assets/Game mechanism/My/SwitchAimIK.cs"
+"Assets/Game mechanism/My/swordAndShieldCasting.cs"
+"Assets/Game mechanism/My/TowerController.cs"
+"Assets/Game mechanism/My/Trap.cs"
+"Assets/Game mechanism/My/Trap002.cs"
+"Assets/Game mechanism/My/TrapSpawner.cs"
+"Assets/Game mechanism/My/triggerMagicAttack2.cs"
+"Assets/Game mechanism/My/useEventsTrigger.cs"
+"Assets/Game mechanism/My/wtfMen.cs"
+"Assets/Game mechanism/ObjectSizeInPercents.cs"
+"Assets/Game mechanism/PlayerInformations.cs"
+"Assets/Game mechanism/reduceHandPower.cs"
+"Assets/Game mechanism/Scripts/ActiveStateToggler.cs"
+"Assets/Game mechanism/Scripts/ApplicationManager.cs"
+"Assets/Game mechanism/Scripts/ChangeColor.cs"
+"Assets/Game mechanism/Scripts/DragMe.cs"
+"Assets/Game mechanism/Scripts/DragPanel.cs"
+"Assets/Game mechanism/Scripts/DropMe.cs"
+"Assets/Game mechanism/Scripts/PanelManager.cs"
+"Assets/Game mechanism/Scripts/ResizePanel.cs"
+"Assets/Game mechanism/Scripts/ScrollDetailTexture.cs"
+"Assets/Game mechanism/Scripts/ShowSliderValue.cs"
+"Assets/Game mechanism/Scripts/TiltWindow.cs"
+"Assets/Game mechanism/StartGame.cs"
+"Assets/Game mechanism/TurnOnBlock.cs"
+Assets/GAS/Scripts/AccountSystem.cs
+Assets/GAS/Scripts/ActiveAccount.cs
+Assets/GAS/Scripts/forgetPassword.cs
+Assets/GAS/Scripts/LoginSystem.cs
+Assets/GAS/Scripts/RegisterSystem.cs
+Assets/GAS/Scripts/ResetPassword.cs
+Assets/GAS/Scripts/sampleGetInformatio.cs
+Assets/GAS/Scripts/UiAccountManager.cs
+Assets/getPlayerSet.cs
+Assets/HolyShift/Scripts/CheckForStandardAssets.cs
+Assets/loadPlayer.cs
+Assets/LogingSystem.cs
+Assets/ObjectStats.cs
+Assets/ObjectType.cs
+Assets/PanelAnimation.cs
+Assets/PlayerCostomizationLoadPlayer.cs
+Assets/playerLoader.cs
+Assets/PlayerStatistics.cs
+Assets/randomCustomization.cs
+Assets/rememberPlayerLogin.cs
+Assets/SavePasswordAndLogin.cs
+Assets/savePlayer.cs
+Assets/sendSave.cs
+Assets/setParent.cs
+Assets/showCursor.cs
+Assets/slowMotion.cs
+Assets/SlowMotionController/Demo/ApplyingSlowMotion.cs
+Assets/SlowMotionController/Demo/Movement.cs
+Assets/SlowMotionController/Scripts/SingletonMonoBehavior.cs
+Assets/SlowMotionController/Scripts/SlowMotionController.cs
+Assets/UI/EasyUIAnimator/Demo/Scripts/Demo.cs
+Assets/UI/EasyUIAnimator/Scripts/UIAnimator.cs
+Assets/UI/EasyUIAnimator/Scripts/UIFixedAnimation.cs
+Assets/UI/EasyUIAnimator/Scripts/UIParallelAnimation.cs
+Assets/UI/EasyUIAnimator/Scripts/Utils/EasyUIAnimatorUtils.cs
+"Assets/UI/Game Jam Template/Scripts/DontDestroy.cs"
+"Assets/UI/Game Jam Template/Scripts/EventSystemChecker.cs"
+"Assets/UI/Game Jam Template/Scripts/Pause.cs"
+"Assets/UI/Game Jam Template/Scripts/PlayMusic.cs"
+"Assets/UI/Game Jam Template/Scripts/SetAudioLevels.cs"
+"Assets/UI/Game Jam Template/Scripts/ShowPanels.cs"
+"Assets/UI/Game Jam Template/Scripts/StartOptions.cs"
+Assets/UI/GameManager.cs
+"Assets/UI/Photon Unity Networking/Demos/Demo2DJumpAndRunWithPhysics/Scripts/Demo2DJumpAndRun.cs"
+"Assets/UI/Photon Unity Networking/Demos/Demo2DJumpAndRunWithPhysics/Scripts/JumpAndRunMovement.cs"
+"Assets/UI/Photon Unity Networking/Demos/DemoBoxes/ColorPerPlayer.cs"
+"Assets/UI/Photon Unity Networking/Demos/DemoBoxes/ColorPerPlayerApply.cs"
+"Assets/UI/Photon Unity Networking/Demos/DemoBoxes/DemoBoxesGui.cs"
+"Assets/UI/Photon Unity Networking/Demos/DemoBoxes/OnAwakePhysicsSettings.cs"
+"Assets/UI/Photon Unity Networking/Demos/DemoBoxes/OnClickFlashRpc.cs"
+"Assets/UI/Photon Unity Networking/Demos/DemoBoxes/OnDoubleclickDestroy.cs"
+"Assets/UI/Photon Unity Networking/Demos/DemoChangeOwner/ClickAndDrag.cs"
+"Assets/UI/Photon Unity Networking/Demos/DemoChangeOwner/DemoOwnershipGui.cs"
+"Assets/UI/Photon Unity Networking/Demos/DemoChangeOwner/HighlightOwnedGameObj.cs"
+"Assets/UI/Photon Unity Networking/Demos/DemoChangeOwner/InstantiateCube.cs"
+"Assets/UI/Photon Unity Networking/Demos/DemoChangeOwner/MaterialPerOwner.cs"
+"Assets/UI/Photon Unity Networking/Demos/DemoChangeOwner/OnClickDisableObj.cs"
+"Assets/UI/Photon Unity Networking/Demos/DemoChangeOwner/OnClickRequestOwnership.cs"
+"Assets/UI/Photon Unity Networking/Demos/DemoChangeOwner/OnClickRightDestroy.cs"
+"Assets/UI/Photon Unity Networking/Demos/DemoChangeOwner/ShowInfoOfPlayer.cs"
+"Assets/UI/Photon Unity Networking/Demos/DemoChat/ChannelSelector.cs"
+"Assets/UI/Photon Unity Networking/Demos/DemoChat/ChatAppIdCheckerUI.cs"
+"Assets/UI/Photon Unity Networking/Demos/DemoChat/ChatGui.cs"
+"Assets/UI/Photon Unity Networking/Demos/DemoChat/FriendItem.cs"
+"Assets/UI/Photon Unity Networking/Demos/DemoChat/IgnoreUiRaycastWhenInactive.cs"
+"Assets/UI/Photon Unity Networking/Demos/DemoChat/NamePickGui.cs"
+"Assets/UI/Photon Unity Networking/Demos/DemoFriendsAndCustomAuth/GUICustomAuth.cs"
+"Assets/UI/Photon Unity Networking/Demos/DemoFriendsAndCustomAuth/GUIFriendFinding.cs"
+"Assets/UI/Photon Unity Networking/Demos/DemoFriendsAndCustomAuth/GUIFriendsInRoom.cs"
+"Assets/UI/Photon Unity Networking/Demos/DemoFriendsAndCustomAuth/OnClickCallMethod.cs"
+"Assets/UI/Photon Unity Networking/Demos/DemoHub/HubGui.cs"
+"Assets/UI/Photon Unity Networking/Demos/DemoHub/MoveCam.cs"
+"Assets/UI/Photon Unity Networking/Demos/DemoHub/Scripts/DemoHubManager.cs"
+"Assets/UI/Photon Unity Networking/Demos/DemoHub/Scripts/ToDemoHubButton.cs"
+"Assets/UI/Photon Unity Networking/Demos/DemoHub/ToHubButton.cs"
+"Assets/UI/Photon Unity Networking/Demos/DemoMecanim/Scripts/DemoMecanimGUI.cs"
+"Assets/UI/Photon Unity Networking/Demos/DemoPickup/Scripts/MessageOverlay.cs"
+"Assets/UI/Photon Unity Networking/Demos/DemoPickup/Scripts/OnCollideSwitchTeam.cs"
+"Assets/UI/Photon Unity Networking/Demos/DemoPickup/Scripts/OnPickedUpScript.cs"
+"Assets/UI/Photon Unity Networking/Demos/DemoPickup/Scripts/PickupCamera.cs"
+"Assets/UI/Photon Unity Networking/Demos/DemoPickup/Scripts/PickupController.cs"
+"Assets/UI/Photon Unity Networking/Demos/DemoPickup/Scripts/PickupDemoGui.cs"
+"Assets/UI/Photon Unity Networking/Demos/DemoPickup/Scripts/PickupTriggerForward.cs"
+"Assets/UI/Photon Unity Networking/Demos/DemoRockPaperScissors/Scripts/RpsCore.cs"
+"Assets/UI/Photon Unity Networking/Demos/DemoRockPaperScissors/Scripts/RpsDebug.cs"
+"Assets/UI/Photon Unity Networking/Demos/DemoRockPaperScissors/Scripts/RpsDemoConnect.cs"
+"Assets/UI/Photon Unity Networking/Demos/DemoRPGMovement/Scripts/DemoRPGMovement.cs"
+"Assets/UI/Photon Unity Networking/Demos/DemoRPGMovement/Scripts/RPGCamera.cs"
+"Assets/UI/Photon Unity Networking/Demos/DemoRPGMovement/Scripts/RPGMovement.cs"
+"Assets/UI/Photon Unity Networking/Demos/DemoSynchronization/CubeExtra.cs"
+"Assets/UI/Photon Unity Networking/Demos/DemoSynchronization/CubeInter.cs"
+"Assets/UI/Photon Unity Networking/Demos/DemoSynchronization/CubeLerp.cs"
+"Assets/UI/Photon Unity Networking/Demos/DemoSynchronization/DragToMove.cs"
+"Assets/UI/Photon Unity Networking/Demos/DemoSynchronization/IELdemo.cs"
+"Assets/UI/Photon Unity Networking/Demos/DemoWorker/Scripts/Game/Player/ThirdPersonCamera.cs"
+"Assets/UI/Photon Unity Networking/Demos/DemoWorker/Scripts/Game/Player/ThirdPersonController.cs"
+"Assets/UI/Photon Unity Networking/Demos/DemoWorker/Scripts/Game/Player/ThirdPersonNetwork.cs"
+"Assets/UI/Photon Unity Networking/Demos/DemoWorker/Scripts/WorkerInGame.cs"
+"Assets/UI/Photon Unity Networking/Demos/DemoWorker/Scripts/WorkerMenu.cs"
+"Assets/UI/Photon Unity Networking/Demos/MarcoPolo-Tutorial/AudioRpc.cs"
+"Assets/UI/Photon Unity Networking/Demos/MarcoPolo-Tutorial/ClickDetector.cs"
+"Assets/UI/Photon Unity Networking/Demos/MarcoPolo-Tutorial/GameLogic.cs"
+"Assets/UI/Photon Unity Networking/Demos/MarcoPolo-Tutorial/Monstergame/Resources/Scripts/myThirdPersonController.cs"
+"Assets/UI/Photon Unity Networking/Demos/MarcoPolo-Tutorial/NetworkCharacter.cs"
+"Assets/UI/Photon Unity Networking/Demos/MarcoPolo-Tutorial/OnClickLoadSomething.cs"
+"Assets/UI/Photon Unity Networking/Demos/MarcoPolo-Tutorial/RandomMatchmaker.cs"
+"Assets/UI/Photon Unity Networking/Demos/PunBasics-Tutorial/Scripts/CameraWork.cs"
+"Assets/UI/Photon Unity Networking/Demos/PunBasics-Tutorial/Scripts/GameManager.cs"
+"Assets/UI/Photon Unity Networking/Demos/PunBasics-Tutorial/Scripts/Launcher.cs"
+"Assets/UI/Photon Unity Networking/Demos/PunBasics-Tutorial/Scripts/LoaderAnime.cs"
+"Assets/UI/Photon Unity Networking/Demos/PunBasics-Tutorial/Scripts/PlayerAnimatorManager.cs"
+"Assets/UI/Photon Unity Networking/Demos/PunBasics-Tutorial/Scripts/PlayerManager.cs"
+"Assets/UI/Photon Unity Networking/Demos/PunBasics-Tutorial/Scripts/PlayerNameInputField.cs"
+"Assets/UI/Photon Unity Networking/Demos/PunBasics-Tutorial/Scripts/PlayerUI.cs"
+"Assets/UI/Photon Unity Networking/Demos/Shared Assets/Scripts/IdleRunJump.cs"
+"Assets/UI/Photon Unity Networking/Demos/Shared Assets/Scripts/PlayerDiamond.cs"
+"Assets/UI/Photon Unity Networking/Demos/Shared Assets/Scripts/PlayerVariables.cs"
+"Assets/UI/Photon Unity Networking/Plugins/PhotonNetwork/CustomTypes.cs"
+"Assets/UI/Photon Unity Networking/Plugins/PhotonNetwork/Enums.cs"
+"Assets/UI/Photon Unity Networking/Plugins/PhotonNetwork/Extensions.cs"
+"Assets/UI/Photon Unity Networking/Plugins/PhotonNetwork/FriendInfo.cs"
+"Assets/UI/Photon Unity Networking/Plugins/PhotonNetwork/GizmoType.cs"
+"Assets/UI/Photon Unity Networking/Plugins/PhotonNetwork/LoadbalancingPeer.cs"
+"Assets/UI/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs"
+"Assets/UI/Photon Unity Networking/Plugins/PhotonNetwork/PhotonClasses.cs"
+"Assets/UI/Photon Unity Networking/Plugins/PhotonNetwork/PhotonHandler.cs"
+"Assets/UI/Photon Unity Networking/Plugins/PhotonNetwork/PhotonLagSimulationGui.cs"
+"Assets/UI/Photon Unity Networking/Plugins/PhotonNetwork/PhotonNetwork.cs"
+"Assets/UI/Photon Unity Networking/Plugins/PhotonNetwork/PhotonPlayer.cs"
+"Assets/UI/Photon Unity Networking/Plugins/PhotonNetwork/PhotonStatsGui.cs"
+"Assets/UI/Photon Unity Networking/Plugins/PhotonNetwork/PhotonStreamQueue.cs"
+"Assets/UI/Photon Unity Networking/Plugins/PhotonNetwork/PhotonView.cs"
+"Assets/UI/Photon Unity Networking/Plugins/PhotonNetwork/PingCloudRegions.cs"
+"Assets/UI/Photon Unity Networking/Plugins/PhotonNetwork/Room.cs"
+"Assets/UI/Photon Unity Networking/Plugins/PhotonNetwork/RoomInfo.cs"
+"Assets/UI/Photon Unity Networking/Plugins/PhotonNetwork/RPC.cs"
+"Assets/UI/Photon Unity Networking/Plugins/PhotonNetwork/ServerSettings.cs"
+"Assets/UI/Photon Unity Networking/Plugins/PhotonNetwork/SocketUdp.cs"
+"Assets/UI/Photon Unity Networking/Plugins/PhotonNetwork/SocketWebTcp.cs"
+"Assets/UI/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonAnimatorView.cs"
+"Assets/UI/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonRigidbody2DView.cs"
+"Assets/UI/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonRigidbodyView.cs"
+"Assets/UI/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonTransformView.cs"
+"Assets/UI/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonTransformViewPositionControl.cs"
+"Assets/UI/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonTransformViewPositionModel.cs"
+"Assets/UI/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonTransformViewRotationControl.cs"
+"Assets/UI/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonTransformViewRotationModel.cs"
+"Assets/UI/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonTransformViewScaleControl.cs"
+"Assets/UI/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonTransformViewScaleModel.cs"
+"Assets/UI/Photon Unity Networking/UtilityScripts/ConnectAndJoinRandom.cs"
+"Assets/UI/Photon Unity Networking/UtilityScripts/CullArea.cs"
+"Assets/UI/Photon Unity Networking/UtilityScripts/InputToEvent.cs"
+"Assets/UI/Photon Unity Networking/UtilityScripts/InRoomChat.cs"
+"Assets/UI/Photon Unity Networking/UtilityScripts/ManualPhotonViewAllocator.cs"
+"Assets/UI/Photon Unity Networking/UtilityScripts/MoveByKeys.cs"
+"Assets/UI/Photon Unity Networking/UtilityScripts/NetworkCullingHandler.cs"
+"Assets/UI/Photon Unity Networking/UtilityScripts/OnClickDestroy.cs"
+"Assets/UI/Photon Unity Networking/UtilityScripts/OnClickInstantiate.cs"
+"Assets/UI/Photon Unity Networking/UtilityScripts/OnClickLoadSomething.cs"
+"Assets/UI/Photon Unity Networking/UtilityScripts/OnJoinedInstantiate.cs"
+"Assets/UI/Photon Unity Networking/UtilityScripts/OnStartDelete.cs"
+"Assets/UI/Photon Unity Networking/UtilityScripts/PhotonPlayer/PlayerRoomIndexing.cs"
+"Assets/UI/Photon Unity Networking/UtilityScripts/PickupItem.cs"
+"Assets/UI/Photon Unity Networking/UtilityScripts/PickupItemSimple.cs"
+"Assets/UI/Photon Unity Networking/UtilityScripts/PickupItemSyncer.cs"
+"Assets/UI/Photon Unity Networking/UtilityScripts/PointedAtGameObjectInfo.cs"
+"Assets/UI/Photon Unity Networking/UtilityScripts/PunPlayerScores.cs"
+"Assets/UI/Photon Unity Networking/UtilityScripts/PunTeams.cs"
+"Assets/UI/Photon Unity Networking/UtilityScripts/PunTurnManager.cs"
+"Assets/UI/Photon Unity Networking/UtilityScripts/QuitOnEscapeOrBack.cs"
+"Assets/UI/Photon Unity Networking/UtilityScripts/ShowStatusWhenConnecting.cs"
+"Assets/UI/Photon Unity Networking/UtilityScripts/SmoothSyncMovement.cs"
+"Assets/UI/Photon Unity Networking/UtilityScripts/SupportLogger.cs"
+"Assets/UI/Photon Unity Networking/UtilityScripts/TimeKeeper.cs"
+"Assets/UI/Photon Unity Networking/UtilityScripts/UI/ButtonInsideScrollList.cs"
+"Assets/UI/Photon Unity Networking/UtilityScripts/UI/TextButtonTransition.cs"
+"Assets/UI/Photon Unity Networking/UtilityScripts/UI/TextToggleIsOnTransition.cs"
+Assets/UI/PhotonChatApi/ChatChannel.cs
+Assets/UI/PhotonChatApi/ChatClient.cs
+Assets/UI/PhotonChatApi/ChatDisconnectCause.cs
+Assets/UI/PhotonChatApi/ChatEventCode.cs
+Assets/UI/PhotonChatApi/ChatOperationCode.cs
+Assets/UI/PhotonChatApi/ChatParameterCode.cs
+Assets/UI/PhotonChatApi/ChatPeer.cs
+Assets/UI/PhotonChatApi/ChatState.cs
+Assets/UI/PhotonChatApi/ChatUserStatus.cs
+Assets/UI/PhotonChatApi/IChatClientListener.cs
+Assets/UI/Plugins/WebSocket/WebSocket.cs
+Assets/UI/Scripts/GameJoining.cs
+Assets/UI/Scripts/GameSettings.cs
+Assets/UI/Scripts/GetLoginFromPlayerInfo.cs
+Assets/UI/Scripts/Launcher.cs
+Assets/UI/Scripts/LoadNewScene.cs
+Assets/UI/Scripts/LoadScene.cs
+Assets/UI/Scripts/PlayerNameInputField.cs
+Assets/UI/Scripts/PlayerSpawner.cs
+Assets/UI/Scripts/QuitApplication.cs
+Assets/UI/Scripts/SendInfo.cs
+Assets/UI/Scripts/SettingsManager.cs
+Assets/UI/Scripts/ShowHero.cs
+Assets/UI/Scripts/ShowPanel.cs
+Assets/UI/Scripts/ShowPanelAndCloseOther.cs
+Assets/UI/Scripts/StartWaitingTime.cs
+Assets/UI/Scripts/SyncTime.cs
+Assets/UI/Scripts/WaitForPlayers.cs
+"Assets/UI/Simple Vector Icons/Sample/IconPreview.cs"
+Assets/UI/UIController/Examples/CSS/Square.cs
+Assets/UI/UIController/Examples/Popups/Scripts/UIControllerExample.cs
+Assets/UI/UIController/Examples/Popups/Scripts/UIControllerExample8.cs
+Assets/UI/UIController/Scripts/UIController.cs
+Assets/UI/UIController/Scripts/UIControllerStateMachine.cs
+-r:"D:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Runtime.Serialization.dll"
+-r:"D:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Xml.Linq.dll"
+-r:"D:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\UnityScript.dll"
+-r:"D:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\UnityScript.Lang.dll"
+-r:"D:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\Boo.Lang.dll"
+-sdk:unity

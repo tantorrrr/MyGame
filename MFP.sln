@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MFP", "MFP.csproj", "{9C3B05ED-BBE9-8946-FED8-61B0B63061BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MFP.Editor", "MFP.Editor.csproj", "{2A4AC273-38C9-750B-D5F6-6125C0E979C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C3B05ED-BBE9-8946-FED8-61B0B63061BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C3B05ED-BBE9-8946-FED8-61B0B63061BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C3B05ED-BBE9-8946-FED8-61B0B63061BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C3B05ED-BBE9-8946-FED8-61B0B63061BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A4AC273-38C9-750B-D5F6-6125C0E979C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A4AC273-38C9-750B-D5F6-6125C0E979C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A4AC273-38C9-750B-D5F6-6125C0E979C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A4AC273-38C9-750B-D5F6-6125C0E979C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

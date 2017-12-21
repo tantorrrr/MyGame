@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1105 &110500000
+HumanTemplate:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: New Human Template
+  m_BoneTemplate:
+    Chest: Bip01_Spine1
+    Head: Bip01_Head
+    Hips: Bip01
+    Jaw: Bip01_Jaw
+    Left Index Distal: Bip01_L_Finger12
+    Left Index Intermediate: Bip01_L_Finger11
+    Left Index Proximal: Bip01_L_Finger1
+    Left Little Distal: Bip01_L_Finger42
+    Left Little Intermediate: Bip01_L_Finger41
+    Left Little Proximal: Bip01_L_Finger4
+    Left Middle Distal: Bip01_L_Finger22
+    Left Middle Intermediate: Bip01_L_Finger21
+    Left Middle Proximal: Bip01_L_Finger2
+    Left Ring Distal: Bip01_L_Finger32
+    Left Ring Intermediate: Bip01_L_Finger31
+    Left Ring Proximal: Bip01_L_Finger3
+    Left Thumb Distal: Bip01_L_Finger02
+    Left Thumb Intermediate: Bip01_L_Finger01
+    Left Thumb Proximal: Bip01_L_Finger0
+    LeftEye: Bip01_L_Eye
+    LeftFoot: Bip01_L_Foot
+    LeftHand: Bip01_L_Hand
+    LeftLowerArm: Bip01_L_Forearm
+    LeftLowerLeg: Bip01_L_Calf
+    LeftShoulder: Bip01_L_Clavicle
+    LeftToes: Bip01_L_Toe0
+    LeftUpperArm: Bip01_L_UpperArm
+    LeftUpperLeg: Bip01_L_Thigh
+    Neck: Bip01_Neck
+    Right Index Distal: Bip01_R_Finger12
+    Right Index Intermediate: Bip01_R_Finger11
+    Right Index Proximal: Bip01_R_Finger1
+    Right Little Distal: Bip01_R_Finger42
+    Right Little Intermediate: Bip01_R_Finger41
+    Right Little Proximal: Bip01_R_Finger4
+    Right Middle Distal: Bip01_R_Finger22
+    Right Middle Intermediate: Bip01_R_Finger21
+    Right Middle Proximal: Bip01_R_Finger2
+    Right Ring Distal: Bip01_R_Finger32
+    Right Ring Intermediate: Bip01_R_Finger31
+    Right Ring Proximal: Bip01_R_Finger3
+    Right Thumb Distal: Bip01_R_Finger02
+    Right Thumb Intermediate: Bip01_R_Finger01
+    Right Thumb Proximal: Bip01_R_Finger0
+    RightEye: Bip01_R_Eye
+    RightFoot: Bip01_R_Foot
+    RightHand: Bip01_R_Hand
+    RightLowerArm: Bip01_R_Forearm
+    RightLowerLeg: Bip01_R_Calf
+    RightShoulder: Bip01_R_Clavicle
+    RightToes: Bip01_R_Toe0
+    RightUpperArm: Bip01_R_UpperArm
+    RightUpperLeg: Bip01_R_Thigh
+    Spine: Bip01_Spine
+    UpperChest: Bip01_Spine2
